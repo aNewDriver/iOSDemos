@@ -45,6 +45,8 @@
 		0EBEECC521E2E6430010E6FA /* WKLevelTwoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBEECA521E2E6430010E6FA /* WKLevelTwoVC.m */; };
 		0EBEECC621E2E6430010E6FA /* WKLevelTwoHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBEECA921E2E6430010E6FA /* WKLevelTwoHeaderView.m */; };
 		0EBEECC721E2E6430010E6FA /* WKProcessingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBEECAA21E2E6430010E6FA /* WKProcessingVC.m */; };
+		0EBEECCA21E2F8BB0010E6FA /* WKMakerUrlProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBEECC921E2F8BB0010E6FA /* WKMakerUrlProtocol.m */; };
+		0EBEECD321E327DD0010E6FA /* WKURLSessionConfigurationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBEECD221E327DD0010E6FA /* WKURLSessionConfigurationManager.m */; };
 		1E2BB45338E88343BCEE4FEC /* Pods_iOSDemos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF99CDC48F792A255284A24A /* Pods_iOSDemos.framework */; };
 /* End PBXBuildFile section */
 
@@ -143,6 +145,10 @@
 		0EBEECAA21E2E6430010E6FA /* WKProcessingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKProcessingVC.m; sourceTree = "<group>"; };
 		0EBEECAC21E2E6430010E6FA /* Headers.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Headers.pch; sourceTree = "<group>"; };
 		0EBEECAD21E2E6430010E6FA /* WKDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKDefines.h; sourceTree = "<group>"; };
+		0EBEECC821E2F8BA0010E6FA /* WKMakerUrlProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKMakerUrlProtocol.h; sourceTree = "<group>"; };
+		0EBEECC921E2F8BB0010E6FA /* WKMakerUrlProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKMakerUrlProtocol.m; sourceTree = "<group>"; };
+		0EBEECD121E327DD0010E6FA /* WKURLSessionConfigurationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKURLSessionConfigurationManager.h; sourceTree = "<group>"; };
+		0EBEECD221E327DD0010E6FA /* WKURLSessionConfigurationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKURLSessionConfigurationManager.m; sourceTree = "<group>"; };
 		4A42670423183514E473DDA6 /* Pods-iOSDemos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDemos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSDemos/Pods-iOSDemos.debug.xcconfig"; sourceTree = "<group>"; };
 		8FBDD50A215AC9FD8EB82DFA /* Pods-iOSDemos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDemos.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSDemos/Pods-iOSDemos.release.xcconfig"; sourceTree = "<group>"; };
 		DF99CDC48F792A255284A24A /* Pods_iOSDemos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSDemos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -242,6 +248,10 @@
 		0EBEEC5521E2E39C0010E6FA /* BaseWebView */ = {
 			isa = PBXGroup;
 			children = (
+				0EBEEC5821E2E39C0010E6FA /* WKBaseDetailViewController.h */,
+				0EBEEC5D21E2E39C0010E6FA /* WKBaseDetailViewController.m */,
+				0EBEEC5A21E2E39C0010E6FA /* WKBaseWebViewController.h */,
+				0EBEEC5E21E2E39C0010E6FA /* WKBaseWebViewController.m */,
 			);
 			path = BaseWebView;
 			sourceTree = "<group>";
@@ -251,10 +261,6 @@
 			children = (
 				0EBEEC5B21E2E39C0010E6FA /* WKBaseViewController.h */,
 				0EBEEC5721E2E39C0010E6FA /* WKBaseViewController.m */,
-				0EBEEC5821E2E39C0010E6FA /* WKBaseDetailViewController.h */,
-				0EBEEC5D21E2E39C0010E6FA /* WKBaseDetailViewController.m */,
-				0EBEEC5A21E2E39C0010E6FA /* WKBaseWebViewController.h */,
-				0EBEEC5E21E2E39C0010E6FA /* WKBaseWebViewController.m */,
 				0EBEEC5921E2E39C0010E6FA /* WKBaseListViewController.h */,
 				0EBEEC5C21E2E39C0010E6FA /* WKBaseListViewController.m */,
 			);
@@ -306,6 +312,10 @@
 			children = (
 				0EBEEC7F21E2E6430010E6FA /* WKWeakProxy.h */,
 				0EBEEC7E21E2E6430010E6FA /* WKWeakProxy.m */,
+				0EBEECC821E2F8BA0010E6FA /* WKMakerUrlProtocol.h */,
+				0EBEECC921E2F8BB0010E6FA /* WKMakerUrlProtocol.m */,
+				0EBEECD121E327DD0010E6FA /* WKURLSessionConfigurationManager.h */,
+				0EBEECD221E327DD0010E6FA /* WKURLSessionConfigurationManager.m */,
 			);
 			path = CustomTools;
 			sourceTree = "<group>";
@@ -607,6 +617,7 @@
 				0EBEEC2821E2E3190010E6FA /* ViewController.m in Sources */,
 				0EBEECAE21E2E6430010E6FA /* PermissionControlManager.m in Sources */,
 				0EBEECBF21E2E6430010E6FA /* TZPhotoPickerController.m in Sources */,
+				0EBEECD321E327DD0010E6FA /* WKURLSessionConfigurationManager.m in Sources */,
 				0EBEECAF21E2E6430010E6FA /* ExceptionDealManager.m in Sources */,
 				0EBEECB921E2E6430010E6FA /* NSBundle+TZImagePicker.m in Sources */,
 				0EBEECC421E2E6430010E6FA /* WKStepView.m in Sources */,
@@ -616,6 +627,7 @@
 				0EBEECC321E2E6430010E6FA /* TZGifPhotoPreviewController.m in Sources */,
 				0EBEECC721E2E6430010E6FA /* WKProcessingVC.m in Sources */,
 				0EBEECBA21E2E6430010E6FA /* UIView+Layout.m in Sources */,
+				0EBEECCA21E2F8BB0010E6FA /* WKMakerUrlProtocol.m in Sources */,
 				0EBEEC6221E2E39D0010E6FA /* WKBaseWebViewController.m in Sources */,
 				0EBEECB621E2E6430010E6FA /* TZAssetCell.m in Sources */,
 				0EBEEC3321E2E31C0010E6FA /* main.m in Sources */,

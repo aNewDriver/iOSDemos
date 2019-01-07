@@ -10,10 +10,12 @@
 
 @interface WKBaseWebViewController :WKBaseDetailViewController
 
-- (instancetype)init __attribute__((unavailable("请调用下面的初始化方法")));
 
 @property (nonatomic, copy) NSString *urlString; //!< url
 @property (nonatomic, copy) NSString *HTMLString; //!< HTML
+
+- (instancetype)init __attribute__((unavailable("请调用下面的初始化方法")));
+
 
 /**
  用url来初始化
